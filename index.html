@@ -40,27 +40,26 @@
                 <div class="panel panel-default">
                     <div class="panel-heading"><strong>Add Train</strong></div>
                     <div class="form-group">
-                        <label for="exampleInputTrainName">Train Name</label>
+                        <label class="trainNameInput" for="exampleInputTrainName">Train Name</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputDestination">Destination</label>
+                        <label class="destinationInput" for="exampleInputDestination">Destination</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputFirstTrainTime">First Train Time (HH:mm - military time)</label>
+                        <label class="firstTrainTimeInput" for="exampleInputFirstTrainTime">First Train Time (HH:mm - military time)</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputFrequency">Frequency</label>
+                        <label class="frequencyInput" for="exampleInputFrequency">Frequency</label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group">
-                            <button type="submit" class="btn btn-default">Submit</button>
-                        </div>
+                        <button id="submit-button" type="submit" class="btn btn-default">Submit</button>
                     </div>
                 </div>
-                
             </form>
+            <script src="assets/javascript/sched.js"></script>
     </body>
 </html>

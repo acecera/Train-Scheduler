@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(0, 0, 189) !important;
+}
+.container {
+    background-color: gold;
+}
+.jumbotron {
+    background-color: rgb(0, 0, 189) !important;
+    color: gold !important;
+}
+.panel-heading {
+    background: rgb(0, 0, 189) !important;
+    color: white !important;
+}
